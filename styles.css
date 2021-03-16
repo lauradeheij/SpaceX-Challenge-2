@@ -1,0 +1,95 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+  background-color: black;  
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    padding-top: 25px;
+}
+
+.header > img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+}
+
+#clock{  
+    font-family: 'robotoregular';
+    font-size: 0.94em;
+    color:darkblue;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+ }
+ 
+ .clock{
+    display: flex;
+ }
+
+ #clock2{
+    font-family: 'robotoregular';
+    font-size: 0.94em;
+    color:darkblue ;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+ }
+
+ #clock3{
+    font-family: 'robotoregular';
+    font-size: 0.94em;
+    color: darkblue;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+ }
+
+.dag{
+    background-image: url(dag.jpg);
+    background-size: cover;
+ }
+
+.nacht{
+   background-image: url(nacht.jpg);
+   background-size: cover;
+}
+
+.container{
+    height: 100vh;
+}
+
+aside{
+    background-color:whitesmoke;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    width: 130px;
+    box-shadow: 5px 5px darkcyan;
+}
+
+div > img{
+    display: flex;
+    width: 110px;
+    padding: 10px;
+    margin: auto;
+}
