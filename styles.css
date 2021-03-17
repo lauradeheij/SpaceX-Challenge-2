@@ -11,16 +11,13 @@
     font-style: normal;
 }
 
-header{
-    margin-top: -575px;
-}
-
-.header > img{
+header > img{
     margin-left: auto;
     margin-right: auto;
     width: 300px;
     border-radius: 10px;
     display: flex;
+    margin-top: -575px;
 }
 
 #clock{  
@@ -33,10 +30,6 @@ header{
     display: flex;
  }
  
- .clock{
-    display: flex;
- }
-
  #clock2{
     font-family: 'robotoregular';
     font-size: 0.94em;
@@ -44,7 +37,7 @@ header{
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    display: block;
  }
 
  #clock3{
@@ -54,7 +47,7 @@ header{
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    display: block;
  }
 
 .dag{
@@ -81,7 +74,7 @@ aside{
     width: 130px;
     box-shadow: 5px 5px darkcyan;
     text-align: center;
-    margin-top: -425px;
+    margin-top: 25px;
     height: 60px;
 }
 

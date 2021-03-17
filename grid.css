@@ -1,21 +1,21 @@
-body{
+/* body{
     display: grid;
     grid-template-columns: 1fr;
   
     grid-template-areas: 
-          "container"
-          "header"
+          /* "container" */
+          /* "header"
           "main"
           "klok1"
           "klok2"
           "klok3"
           "raket"; 
-  }
+  } */ */
 
-  .container{
+  /* .container{
     grid-area: container;
-  }
-  .header{
+  } */
+  /* .header{
     grid-area: header;
   }
 
@@ -37,42 +37,56 @@ body{
 
   .raket{
     grid-area: raket;
-  }
+  } */
 
   @media only screen and (min-width: 601px){
-    body{
+    /* body{
       display: grid;
           grid-template-columns: 1fr 1fr ;
           grid-gap: 10px;
           grid-template-areas: 
-          "container container"
+          /* "container container" */
           "header header"
           "main main"
           "klok1 klok2"
           "klok3 klok3"
           "raket raket"; 
-    }
+    } */
 
     .container{
       height: 100vh;
     }
+
+    aside{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
     @media only screen and (min-width: 901px){
-        body{
+        /* body{
           display: grid;
           grid-template-columns: 1fr 1fr 1fr ;
           grid-gap: 10px;
           grid-template-areas: 
-          "container container container"
-          "header header header"
+          /* "container container container" */
+          /* "header header header"
           "main main main"
           "klok1 klok2 klok3"
           "raket raket raket"; 
-        }
+        } */ */
 
         .container{
           height: 100vh;
+      }
+
+      aside{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
       }
     }
 
@@ -80,4 +94,11 @@ body{
        .container{
           height: 100vh;
          }
+
+         aside{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+        }
        }
