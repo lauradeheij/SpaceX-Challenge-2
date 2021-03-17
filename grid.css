@@ -53,10 +53,6 @@ body{
           "raket raket"; 
     }
 
-    /* aside{
-      float: left;
-      display:block;
-    } */
     .container{
       height: 100vh;
     }
@@ -78,31 +74,10 @@ body{
         .container{
           height: 100vh;
       }
-
-      /* aside{
-        float:left;
-        align-items: center;
-      } */
     }
 
       @media only screen and (min-width: 1201px){
-         body{
-            /* display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            grid-template-areas: 
-            "container container container container"
-            "header header header header"
-            "main main main main"
-            "klok1 klok1 klok2 klok3"
-            "raket raket raket raket"; 
-            } */
-
-            .container{
-              height: 100vh;
-          }
-
-          /* aside{
-            float:left;
-            display:block;
-          } */
-        }
+       .container{
+          height: 100vh;
+         }
+       }
