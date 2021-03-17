@@ -11,20 +11,22 @@
     font-style: normal;
 }
 
+header{
+  padding-top: 25px;
+}
+
 header > img{
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 175px;
     border-radius: 10px;
     display: flex;
-    margin-top: -600px;
 }
 
 #clock{  
     font-family: 'robotoregular';
     font-size: 0.94em;
     color:darkblue;
-    padding: 10px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -71,7 +73,7 @@ aside{
     padding: 5px;
     border: 2px solid darkblue;
     border-radius: 10px;
-    width: 130px;
+    width: 100px;
     box-shadow: 5px 5px darkcyan;
     text-align: center;
     margin-top: 25px;
@@ -90,22 +92,25 @@ div > img{
 	position: absolute;
 	top: 10px;
 	left: 10px;
-	animation: 2000ms pulsate infinite alternate ease-in-out;
+	animation: 5000ms pulsate infinite alternate ease-in-out;
 }
 
 @keyframes pulsate {
   0% { 
-  	top: 200px; 
+  	left: 10px;
+    top: 530px; 
   }
 
   25%{
+    transform: rotate(90deg);
     left: 50px;
-    top: 250px;
-  }'
+    top: 400px;
+  }
   
   50%{
     left: 100px;
     top: 300px;
+    transform: rotate(90deg);
   }
 
   75%{
@@ -113,7 +118,7 @@ div > img{
       top: 400px;
   }
   100% { 
-  	left: 10px;
+  	left: 200px;
     top: 530px;
   }
 }
