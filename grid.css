@@ -40,18 +40,8 @@
   } */
 
   @media only screen and (min-width: 601px){
-    /* body{
-      display: grid;
-          grid-template-columns: 1fr 1fr ;
-          grid-gap: 10px;
-          grid-template-areas: 
-          /* "container container" */
-          "header header"
-          "main main"
-          "klok1 klok2"
-          "klok3 klok3"
-          "raket raket"; 
-    } */
+    
+
 
     .container{
       height: 100vh;
@@ -66,17 +56,9 @@
   }
 
     @media only screen and (min-width: 901px){
-        /* body{
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr ;
-          grid-gap: 10px;
-          grid-template-areas: 
-          /* "container container container" */
-          /* "header header header"
-          "main main main"
-          "klok1 klok2 klok3"
-          "raket raket raket"; 
-        } */ */
+        header > img{
+          margin-top: -700px;
+        }
 
         .container{
           height: 100vh;
@@ -100,5 +82,9 @@
           flex-direction: row;
           align-items: center;
           justify-content: center;
+        }
+
+        header > img{
+          margin-top: -575px;
         }
        }
