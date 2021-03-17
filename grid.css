@@ -1,29 +1,66 @@
-/* body{
+body{
     display: grid;
     grid-template-columns: 1fr;
   
     grid-template-areas: 
+          "container"
           "header"
           "main"
-          "ad1"
-          "ad2"
-          "ad3"
-          "ad4"
-          "ad5"; 
+          "klok1"
+          "klok2"
+          "klok3"
+          "raket"; 
+  }
+
+  .container{
+    grid-area: container;
+  }
+  .header{
+    grid-area: header;
+  }
+
+  .main{
+    grid-area: main;
+  }
+
+  .klok1{
+    grid-area: klok1;
+  }
+
+  .klok2{
+    grid-area: klok2;
+  }
+
+  .klok3{
+    grid-area: klok3;
+  }
+
+  .raket{
+    grid-area: raket;
   }
 
   @media only screen and (min-width: 601px){
     body{
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 0px;
-      grid-template-areas: 
-      "header header"
-      "main   main"
-      "ad1    ad2"
-      "ad3    ad4"
-      "ad5    ad5"; 
+          grid-template-columns: 1fr 1fr ;
+          grid-gap: 10px;
+          grid-template-areas: 
+          "container container"
+          "header header"
+          "main main"
+          "klok1 klok2"
+          "klok3 klok3"
+          "raket raket"; 
     }
+
+    /* aside{
+      float: left;
+      display:block;
+    } */
+    .container{
+      height: 100vh;
+    }
+  }
 
     @media only screen and (min-width: 901px){
         body{
@@ -31,19 +68,41 @@
           grid-template-columns: 1fr 1fr 1fr ;
           grid-gap: 10px;
           grid-template-areas: 
+          "container container container"
           "header header header"
           "main main main"
-          "ad1 ad2 ad3"
-          "ad4 ad5 ad5"; 
+          "klok1 klok2 klok3"
+          "raket raket raket"; 
         }
+
+        .container{
+          height: 100vh;
+      }
+
+      /* aside{
+        float:left;
+        align-items: center;
+      } */
+    }
 
       @media only screen and (min-width: 1201px){
          body{
-            display: grid;
+            /* display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-template-areas: 
+            "container container container container"
             "header header header header"
             "main main main main"
-            "ad1 ad2 ad3 ad4"
-            "ad5 ad5 ad5 ad5"; 
-            }*/
+            "klok1 klok1 klok2 klok3"
+            "raket raket raket raket"; 
+            } */
+
+            .container{
+              height: 100vh;
+          }
+
+          /* aside{
+            float:left;
+            display:block;
+          } */
+        }

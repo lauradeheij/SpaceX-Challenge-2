@@ -3,10 +3,6 @@
 	padding: 0px;
 }
 
-body{
-  background-color: black;  
-}
-
 @font-face {
     font-family: 'robotoregular';
     src: url('roboto-regular-webfont.woff2') format('woff2'),
@@ -16,13 +12,13 @@ body{
 }
 
 header{
-    padding-top: 25px;
+    margin-top: -575px;
 }
 
 .header > img{
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 300px;
     border-radius: 10px;
     display: flex;
 }
@@ -77,7 +73,6 @@ header{
 
 aside{
     background-color:whitesmoke;
-    margin: 50px;
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
@@ -85,6 +80,9 @@ aside{
     border-radius: 10px;
     width: 130px;
     box-shadow: 5px 5px darkcyan;
+    text-align: center;
+    margin-top: -425px;
+    height: 60px;
 }
 
 div > img{
@@ -92,4 +90,21 @@ div > img{
     width: 110px;
     padding: 10px;
     margin: auto;
+    margin-top: -100px;
+}
+
+#raket {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	animation: 1000ms pulsate infinite alternate ease-in-out;
+}
+
+@keyframes pulsate {
+  0% { 
+  	top: 500px; 
+  }
+  100% { 
+  	top: 530px;
+  }
 }
