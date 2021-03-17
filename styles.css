@@ -90,35 +90,68 @@ div > img{
 
 #raket {
 	position: absolute;
-	top: 10px;
+	top: 550px;
 	left: 10px;
-	animation: 5000ms pulsate infinite alternate ease-in-out;
+	animation: 8000ms pulsate infinite;
 }
 
 @keyframes pulsate {
-  0% { 
+  0% {          /*startpunt*/
   	left: 10px;
-    top: 530px; 
+    top: 450px; 
   }
 
-  25%{
-    transform: rotate(90deg);
-    left: 50px;
-    top: 400px;
+  11%{          /*gaat omhoog*/
+    left: 10px;
+    top: 100px;
+    transform: rotate(0deg);
   }
   
-  50%{
-    left: 100px;
-    top: 300px;
+  22%{          /*blijft staan en draait 90graden*/
+    left: 10px;
+    top: 100px;
     transform: rotate(90deg);
   }
 
-  75%{
-      left: 50px;
-      top: 400px;
+  33%{          /*gaat naar rechts en blijft 90graden staan*/
+    left: 250px;
+    top: 100px;
+    transform: rotate(90deg);
   }
-  100% { 
-  	left: 200px;
-    top: 530px;
+
+  44%{          /*blijft staan en draait naar beneden*/
+      left: 250px;
+      top: 100px;
+      transform: rotate(180deg);
+  }
+
+  55%{          /*gaat omlaag en blijft naar beneden gericht*/
+    left: 250px;
+      top: 450px;
+      transform: rotate(180deg);
+  }
+ 
+  66%{          /*blijft laag en draait naar links*/
+    left: 250px;
+      top: 450px;
+      transform: rotate(270deg);
+  }
+
+  77%{          /*gaat naar links en blijft 270graden staan*/
+    left: 10px;
+      top: 450px;
+      transform: rotate(270deg);
+  }
+ 
+  88%{          /*blijft links en draait 360 graden*/
+    left: 10px;
+      top: 450px;
+      transform: rotate(360deg);
+  }
+
+  100% {          /*blijft bij start positie staan zodat het niet terug draait*/
+  	left: 10px;
+    top: 450px; 
+    transform: rotate(360deg);
   }
 }
