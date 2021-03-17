@@ -27,7 +27,7 @@ function startTime() { //functie voor de tijd
 function dayAndNight(){ //functie voor wisselen met dag en nacht
   var h = new Date();
   var hours = h.getHours();
-  if (hours >= 8 && hours <= 18 ){
+  if (hours >= 8 && hours <= 17 ){
     container.classList.remove('nacht'); //voor de dag lay-out
     container.classList.add('dag');
   } else {

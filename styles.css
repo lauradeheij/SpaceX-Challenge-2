@@ -92,7 +92,7 @@ div > img{
 	position: absolute;
 	top: 550px;
 	left: 10px;
-	animation: 8000ms pulsate infinite;
+	animation: 7000ms pulsate infinite ease;
 }
 
 @keyframes pulsate {
