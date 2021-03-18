@@ -1,4 +1,4 @@
-var container = document.querySelector('.container');
+var container = document.querySelector('.container'); //var aanmaken voor container voor de achtergrond wisselen met dag en nachts
 
 function startTime() { //functie voor de tijd
     var today = new Date();

@@ -3,7 +3,7 @@
 	padding: 0px;
 }
 
-@font-face {
+@font-face { /*lettertype*/
     font-family: 'robotoregular';
     src: url('roboto-regular-webfont.woff2') format('woff2'),
          url('roboto-regular-webfont.woff') format('woff');
